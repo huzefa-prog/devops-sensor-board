@@ -1,4 +1,4 @@
-name: PCB Pipeline
+name: PCB DevOps Pipeline
 
 on:
   push:
@@ -13,5 +13,20 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Test Step
-        run: echo "Pipeline is working!"
+      - name: Install KiCad
+        run: sudo apt-get update && sudo apt-get install -y kicad
+
+      - name: Create Output Folder
+        run: mkdir -p outputs
+
+      - name: Simulate Gerber Generation
+        run: echo "Gerber files generated" > outputs/gerber.txt
+
+      - name: Simulate BOM Generation
+        run: echo "BOM generated" > outputs/bom.txt
+
+      - name: Upload Files
+        uses: actions/upload-artifact@v3
+        with:
+          name: pcb-output
+          path: outputs/
