@@ -1,0 +1,17 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'D1:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:Connector:FanPinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'U1:Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering'.
+Info: Processing symbol 'U2:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Info: Total warnings: 0, errors: 0.
+
+
+
+
+Info: Total warnings: 0, errors: 0.

@@ -1,0 +1,14 @@
+** Drc report for devops_sensor_board.kicad_pcb **
+** Created on 2026-03-03T19:32:32+0530 **
+
+** Found 0 DRC violations **
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.5000 mm, 92.0000 mm): Track [/3V3] on F.Cu, length 3.6932 mm
+    @(151.2000 mm, 92.0000 mm): Pad 2 [/3V3] of U2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
